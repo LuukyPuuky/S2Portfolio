@@ -65,7 +65,7 @@ html {
 .navbar .logo a {
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -78,12 +78,27 @@ html {
 .navbar .nav-items li a {
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 600;
+  padding: 1rem;
+  border: 5px solid transparent;
 }
 
 .navbar .nav-items li {
   display: inline;
+}
+
+.navbar .nav-items li a:hover {
+  border: 2px solid;
+  border-radius: 30px;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(
+    45deg,
+    var(--primarycolor),
+    var(--secondarycolor),
+    var(--tertiarycolor)
+  );
 }
 
 @media screen and (max-width: 768px) {
@@ -91,12 +106,22 @@ html {
     flex-wrap: wrap;
   }
 
+  .logo {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
   .nav-items {
     display: none;
     flex-direction: column;
     width: 100%;
     text-align: center;
     padding: 10px 0;
+  }
+
+  .navbar .nav-items li a {
+    padding: 0;
   }
 
   .nav-items.active {

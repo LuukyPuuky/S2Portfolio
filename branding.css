@@ -15,7 +15,6 @@
   margin: 20px 0;
 }
 .hero img {
-  width: 100%;
   max-width: 1000px;
   border-radius: 1.25rem;
 }
@@ -23,10 +22,10 @@
   padding: 2rem;
   margin: 2rem 0;
   border-radius: 1.25rem;
-  border: 2px solid var(--primarycolor);
+  border: 2px solid var(--secondarycolor);
 }
 .section h2 {
-  color: var(--primarycolor);
+  color: var(--secondarycolor);
   font-size: 1.2em;
   margin-top: 0;
   font-family: var(--font-family);
@@ -52,16 +51,16 @@
 .images img {
   width: 48%;
   border-radius: 1.25rem;
-  border: 2px solid var(--primarycolor);
+  border: 2px solid var(--secondarycolor);
 }
 
 .here-link {
-  color: var(--primarycolor);
+  color: var(--secondarycolor);
   text-decoration: none;
 }
 
 .here-link:visited {
-  color: var(--primarycolor);
+  color: var(--secondarycolor);
   text-decoration: none;
 }
 
@@ -80,5 +79,5 @@
   width: 100%;
   max-width: 1000px;
   border-radius: 1.25rem;
-  border: 2px solid var(--primarycolor);
+  border: 2px solid var(--secondarycolor);
 }
