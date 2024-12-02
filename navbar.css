@@ -1,0 +1,63 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--backgroundcolor);
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --backgroundcolor: #111215;
+  --white: #ffffff;
+  --primarycolor: #12c2e9;
+  --secondarycolor: #c471ed;
+  --tertiarycolor: #f64f59;
+  --gradientcolor: linear-gradient(
+    45deg,
+    var(--primarycolor),
+    var(--secondarycolor),
+    var(--tertiarycolor)
+  );
+  --cardcolor: #16171a;
+  --bordercardcolor: rgba(255, 255, 255, 0.3);
+  --font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8.94rem;
+  padding-right: 8.94rem;
+  margin-top: 2.38rem;
+  background-color: var(--backgroundcolor);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo {
+  margin-right: 15.38rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: var(--white);
+}
