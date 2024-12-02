@@ -38,7 +38,7 @@ html {
   line-height: normal;
 }
 
-.logo {
+/* .logo {
   margin-right: 15.38rem;
 }
 
@@ -60,4 +60,46 @@ html {
 .nav-items li a {
   text-decoration: none;
   color: var(--white);
+} */
+
+.navbar .logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-items {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.navbar .nav-items li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navbar .nav-items li {
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-items.active {
+    display: flex;
+  }
 }
