@@ -50,7 +50,7 @@ For this project I need to accomplish some learning outcomes:
 ## 🙋‍♂️ About Me
 
 Hi, I’m **Luuk Steijaert**! 👋  
-I'm a beginning front-end developer and I want to learn more about different frameworks, 3d objects and animations and much more.
+I'm a beginner front-end developer, I am 21 years old and study Fontys ICT Media Design, and I want to learn more about different frameworks, 3D objects, animations, and much more.
 
 ### 📬 Connect with Me:
 
