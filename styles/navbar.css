@@ -101,6 +101,10 @@ html {
   );
 }
 
+.nav-items a:hover {
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     flex-wrap: wrap;
