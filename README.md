@@ -55,7 +55,7 @@ I'm a beginning front-end developer and I want to learn more about different fra
 ### 📬 Connect with Me:
 
 - **GitHub**: [github.com/luukypuuky](https://github.com/luukypuuky)
-- **LinkedIn**: [linkedin.com/in/luuksteijaert](https://linkedin.com/in/luuksteijaert)
+- **LinkedIn**: [linkedin.com/in/luuksteijaert](https://www.linkedin.com/in/luuk-steijaert-028702287/)
 
 ---
 
