@@ -28,7 +28,7 @@ Here’s a glimpse of the projects I’ve worked on:
 
 3. **[Fix That UX](#)**
 
-   - The Fix that UX project has two sides, one side is the part where I together with my group worked on researching different health insurance companies. We also had to redesign a chozen company, (for us that was CZ). The other side was the coding part and I mostly did that part alone because my groupmate left me.
+   - The "Fix that UX" project has two parts. In the first part, my group and I researched different health insurance companies. We also had to redesign a chosen company, which for us was CZ. The second part was the coding, and I mostly worked on that part alone because my groupmate left.
 
 4. **[Portfolio](#)**
    - The portfolio project is the portfolio you are about to review and is within this github repository.
