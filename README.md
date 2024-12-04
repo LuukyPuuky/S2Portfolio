@@ -20,18 +20,18 @@ Here’s a glimpse of the projects I’ve worked on:
 
 1. **[FastForward](#)**
 
-   - **Description**: Fast forward is a project that I worked on in the introduction week of Semester 2 Media & Design. It's about making a product that you thought would be realistic in 2050.
+   - Fast forward is a project that I worked on in the introduction week of Semester 2 Media & Design. It's about making a product that you thought would be realistic in 2050.
 
 2. **[Branding](#)**
 
-   - **Description**: The Branding project was the first real project for a client. Together with my group we worked on a brand guide for Woody & Truus. They wanted to organize a pubcrawl and they needed to have a brand for that.
+   - The Branding project was the first real project for a client. Together with my group we worked on a brand guide for Woody & Truus. They wanted to organize a pubcrawl and they needed to have a brand for that.
 
 3. **[Fix That UX](#)**
 
-   - **Description**: The Fix that UX project has two sides, one side is the part where I together with my group worked on researching different health insurance companies. We also had to redesign a chozen company, (for us that was CZ). The other side was the coding part and I mostly did that part alone because my groupmate left me.
+   - The Fix that UX project has two sides, one side is the part where I together with my group worked on researching different health insurance companies. We also had to redesign a chozen company, (for us that was CZ). The other side was the coding part and I mostly did that part alone because my groupmate left me.
 
 4. **[Portfolio](#)**
-   - **Description**: The portfolio project is the portfolio you are about to review and is within this github repository.
+   - The portfolio project is the portfolio you are about to review and is within this github repository.
 
 ---
 
@@ -49,13 +49,13 @@ For this project I need to accomplish some learning outcomes:
 
 ## 🙋‍♂️ About Me
 
-Hi, I’m **[Luuk Steijaert]**! 👋  
+Hi, I’m **Luuk Steijaert**! 👋  
 I'm a beginning front-end developer and I want to learn more about different frameworks, 3d objects and animations and much more.
 
 ### 📬 Connect with Me:
 
 - **GitHub**: [github.com/luukypuuky](https://github.com/luukypuuky)
-- **LinkedIn**: [linkedin.com/in/luuksteijert](https://linkedin.com/in/luuksteijaert)
+- **LinkedIn**: [linkedin.com/in/luuksteijaert](https://linkedin.com/in/luuksteijaert)
 
 ---
 
