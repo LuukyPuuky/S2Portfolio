@@ -70,6 +70,10 @@
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .here-link:hover {
   cursor: pointer;
 }
