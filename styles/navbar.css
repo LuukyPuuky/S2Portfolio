@@ -28,14 +28,15 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 8.94rem;
-  padding-right: 8.94rem;
+  max-width: 74.12rem;
+  margin: 0 auto;
   margin-top: 2.38rem;
   background-color: var(--backgroundcolor);
   color: var(--white);
   font-size: 2rem;
   font-weight: 400;
   line-height: normal;
+  padding: 20px;
 }
 
 /* .logo {
