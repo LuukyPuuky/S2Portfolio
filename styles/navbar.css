@@ -39,30 +39,6 @@ html {
   padding: 20px;
 }
 
-/* .logo {
-  margin-right: 15.38rem;
-}
-
-.logo a {
-  text-decoration: none;
-  color: var(--white);
-}
-
-.nav-items {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.nav-items li {
-  list-style: none;
-}
-
-.nav-items li a {
-  text-decoration: none;
-  color: var(--white);
-} */
-
 .navbar .logo a {
   text-decoration: none;
   color: white;

@@ -27,6 +27,7 @@
   max-width: 74.12rem;
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
 }
 
 .hero-content {
@@ -43,4 +44,11 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+    font-size: 4.4375rem;
+  }
 }
