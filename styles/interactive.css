@@ -105,7 +105,6 @@ a {
   width: var(--slider-width);
   max-width: 100%;
   margin: 0 auto;
-  gap: 15px;
 }
 
 .image-wrapper {
@@ -114,66 +113,36 @@ a {
   grid-template-rows: 1fr;
   position: relative;
   overflow: hidden;
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
 }
 
 .image {
   grid-column: 1;
   grid-row: 1;
-  max-width: 500px;
-  max-height: 500px;
-  /* width: 100%;
-  height: 100%; */
-  object-fit: cover;
-  object-position: left;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
   border-radius: 1.25rem;
   border: 2px solid var(--tertiarycolor);
 }
 
 .after-image {
-  clip-path: inset(0 50% 0 0);
+  clip-path: inset(0 100% 0 0);
   transition: clip-path 0.1s linear;
-}
-
-#slider {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  height: 5px;
-  background: #ddd;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 15px;
-  height: 15px;
-  background: #000;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-#slider::-moz-range-thumb {
-  width: 15px;
-  height: 15px;
-  background: #000;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-#slider::-ms-thumb {
-  width: 15px;
-  height: 15px;
-  background: #000;
-  border-radius: 50%;
-  cursor: pointer;
 }
 
 /* Add responsiveness */
 @media (max-width: 768px) {
   :root {
     --slider-height: 300px;
+  }
+
+  .image-wrapper {
+    max-width: 100%;
+    height: auto;
   }
 
   .image {
