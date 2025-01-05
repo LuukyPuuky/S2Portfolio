@@ -1,51 +1,40 @@
-const imageWrapper = document.querySelector(".image-wrapper");
-const afterImage = document.querySelector(".after-image");
+document.addEventListener("DOMContentLoaded", () => {
+  // Initialize all carousels
+  document.querySelectorAll("[data-gallery]").forEach((galleryNew) => {
+    const viewport = galleryNew.querySelector(".carousel-track"); // Locate the carousel track
+    const slides = viewport.querySelectorAll(".carousel-slide"); // All slides
+    const prevButton = galleryNew.querySelector("[data-gallery-prev]"); // Prev button
+    const nextButton = galleryNew.querySelector("[data-gallery-next]"); // Next button
 
-let isDragging = false;
+    let currentIndex = 0; // Track the current slide
 
-// Start dragging (on mouse down or touch start)
-imageWrapper.addEventListener("mousedown", (e) => {
-  isDragging = true;
-  updateClipPathFromEvent(e);
+    // Update the carousel view
+    const updateGallery = () => {
+      // Translate the viewport to the current slide
+      viewport.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+      // Enable/disable buttons based on the current index
+      prevButton.disabled = currentIndex === 0;
+      nextButton.disabled = currentIndex === slides.length - 1;
+    };
+
+    // Event listener for the previous button
+    prevButton.addEventListener("click", () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateGallery();
+      }
+    });
+
+    // Event listener for the next button
+    nextButton.addEventListener("click", () => {
+      if (currentIndex < slides.length - 1) {
+        currentIndex++;
+        updateGallery();
+      }
+    });
+
+    // Initialize the gallery view
+    updateGallery();
+  });
 });
-
-imageWrapper.addEventListener("touchstart", (e) => {
-  isDragging = true;
-  updateClipPathFromEvent(e.touches[0]);
-});
-
-// While dragging (on mouse move or touch move)
-document.addEventListener("mousemove", (e) => {
-  if (isDragging) {
-    updateClipPathFromEvent(e);
-  }
-});
-
-document.addEventListener("touchmove", (e) => {
-  if (isDragging) {
-    updateClipPathFromEvent(e.touches[0]);
-  }
-});
-
-// Stop dragging (on mouse up or touch end)
-document.addEventListener("mouseup", () => {
-  isDragging = false;
-});
-
-document.addEventListener("touchend", () => {
-  isDragging = false;
-});
-
-// Update the clip-path based on mouse/touch position
-function updateClipPathFromEvent(e) {
-  const rect = imageWrapper.getBoundingClientRect(); // Get the size of the image wrapper
-  const mouseX = (e.clientX || e.touches[0].clientX) - rect.left; // Get the mouse/touch position relative to the image
-  const percentage = (mouseX / rect.width) * 100; // Calculate the percentage of the image being revealed
-
-  // Ensure percentage is within bounds (0 to 100)
-  if (percentage < 0) percentage = 0;
-  if (percentage > 100) percentage = 100;
-
-  // Update the clip-path style to reveal the "after" image
-  afterImage.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
-}
