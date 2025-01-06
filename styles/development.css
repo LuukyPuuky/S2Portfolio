@@ -199,7 +199,8 @@ a {
 
   .section-examples {
     gap: 1rem;
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
   }
   .example-button {
     padding: 1rem;
