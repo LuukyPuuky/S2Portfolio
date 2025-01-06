@@ -94,6 +94,16 @@
   font-style: normal;
   font-weight: 600;
 }
+
+#example4 video {
+  width: 100%;
+  max-width: 74.12rem;
+  border-radius: 1.25rem;
+  border: 2px solid var(--primarycolor);
+  display: block;
+  margin: 0 auto;
+}
+
 .images {
   display: flex;
   justify-content: space-between;
