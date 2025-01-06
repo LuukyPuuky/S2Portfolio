@@ -57,6 +57,15 @@ I'm a beginner front-end developer, I am 21 years old and study Fontys ICT Media
 - **GitHub**: [github.com/luukypuuky](https://github.com/luukypuuky)
 - **LinkedIn**: [linkedin.com/in/luuksteijaert](https://www.linkedin.com/in/luuk-steijaert-028702287/)
 
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/LuukyPuuky/S2Portfolio.git
+   ```
+
 ---
 
 _This portfolio is continuously updated. Stay tuned for more projects and insights!_
