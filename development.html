@@ -3,7 +3,217 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Development</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/development.css" />
+    <title>Development Learning Outcome</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <a href="/">Luuk Steijaert</a>
+          </div>
+          <ul class="nav-items">
+            <li><a href="/learningoutcome.html">Learning Outcomes</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/aboutme.html">About Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      
+      <div class="section-examples">
+
+        <button onclick="location.href='#example1';" class="example-button"><p>Example 1</p></button>
+        <button onclick="location.href='#example2';" class="example-button"><p>Example 2</p></button>
+        <button onclick="location.href='#example3';" class="example-button"><p>Example 3</p></button>
+        <button onclick="location.href='#example4';" class="example-button"><p>Example 4</p></button>
+        <button onclick="location.href='#example5';" class="example-button"><p>Example 5</p></button>
+      </div>
+      <div class="section">
+        <h2>Development and Version Control</h2>
+        <p>
+          For this learning outcome, I explored front-end development languages, wrote code and documented it in a version control environment.
+        </p>
+        <br>
+        <p>
+          During this semester I learned a lot about HTML, CSS and JavaScript. I also made use of Git and made sure the code is clear and accessible. Providing clarity to others and my future self. For every project, I also made a README file where I explain details about the project and how to use it.
+        </p>
+      </div>
+
+      <div id="example1" class="section">
+        <h2 >Example 1</h2>
+        <p>
+          For the first example, I created a README file for my portfolio website. The README explains the purpose of the project, provides installation instructions, and guides users on how to use it. It is written in Markdown and can be found in the repository of my portfolio website on GitHub.
+        
+          to view the readme file on GitHub, click 
+          <a
+            class="here-link"
+            href="https://github.com/LuukyPuuky/S2Portfolio/blob/main/README.md"
+            target="_blank"
+            >here.</a
+          >
+        </p>
+        <br>
+        <div class="big-image">
+          <img src="./assets/readmepicture.png" alt="readme" />
+        </div>
+      </div>
+
+      <div id="example2" class="section">
+        <h2>Example 2</h2>
+        <p>
+        For this project, I used Git to track my progress while working on my portfolio website. 
+        <br>
+        Git provided version control, offering a reliable way to manage and organize my work. It allowed me to save and review different versions of my project, which helped prevent losing progress in case something went wrong. Git also made it easier to experiment with new ideas in separate branches, ensuring I could make changes without impacting the main project. Additionally, it facilitated collaboration, allowing me to share my code with others and merge their contributions seamlessly. Overall, Git played a crucial role in keeping my work organized, secure, and manageable throughout the development process.
+        </p>
+        <br />
+        <p>
+          I used multiple branches to have a clear overview of the different parts of the project. Everytime I start to work on a different part of the website I create a new branch and when I'm done I merge it back to the main branch. This way I can keep track of the different parts of the project and keep the main branch clean and organized.
+        </p>
+        <br>
+        <h3>Why did I use Github?</h3>
+        <p>
+          The prefered Git environment for me is GitHub. School uses Gitlab but I prefer GitHub because it is more user-friendly and has a better interface. I also like the fact that GitHub has a lot of integrations with other tools and services, which makes it easier to automate workflows and collaborate with others. 
+        </p>
+        <br>
+        <div class="big-image">
+          <img src="./assets/commits.png" alt="git commits" />
+        </div>
+        <br>
+        <p>
+          Here is a link to my GitHub profile: 
+          <a
+            class="here-link"
+            href="https://github.com/LuukyPuuky"
+            target="_blank"
+            >github.com/LuukyPuuky</a>
+        </p>
+      </div>
+
+      <div id="example3" class="section">
+        <h2>Example 3</h2>
+        <p>
+          For this example, I also used Git to develop the website for Hike One, one of our clients that we were asigned to.
+          <br>
+          Together with Sara V., I worked on creating a website for CZ.nl, an insurance company in the Netherlands. Unfortunately, Sara and I parted ways when she decided not to continue with Semester 2, so I ended up completing the project on my own. Despite this, we had set up our own branches, and it's clear from the final product that we worked on different parts of the website. Most of the development was done by me, but we took steps to ensure we didn’t overwrite each other’s work. By using branches, we were able to focus on separate sections of the website and merge them back into the main branch once we had finished. This approach allowed us to work on the website simultaneously without interfering with each other's progress.
+        </p>
+        <br>
+        <div class="big-image">
+          <img src="./assets/saracommits.png" alt="git branches" />
+        </div>
+      </div>
+
+      <div id="example4" class="section">
+        <h2>Example 4</h2>
+        <p>
+          For this final example I did some javascript coding for the website of Hike One. I created a shopping cart that will stick to the top when you scroll down and automatically adds up the prices if you select different plans for your insurance.
+        </p>
+        <br>
+        <video src="assets/previewczjavascript.mp4" autoplay loop muted ></video> 
+        <br>
+        <p>
+          To view the whole project go to my Fix That UX project in the projects section or click  <a
+          class="here-link"
+          href="fixthatux.html"
+          target="_blank"
+          >here.</a>
+        </p>
+      </div>
+
+      <div id="example5" class="section">
+        <h2>Example 5</h2>
+        <p>
+          In this final example I created different styling in my Project X. I used SCSS and TailwindCSS to have two different approaches to styling. I also used Git to keep track of the different styling approaches.
+        </p>
+        <br>
+        <div class="big-image">
+          <img src="./assets/atomizestylingprojectX.png" alt="styleprojectX" />
+        </div>
+        <br>
+        <h2>To be added!</h2>
+        <p>
+          
+          To view the whole project go to my Project X project in the projects section or click  <a
+          class="here-link"
+          href="projectx.html"
+          target="_blank"
+          >here.</a>
+        </p>
+      </div>
+
+
+      <div class="section">
+        <h2>Reflection</h2>
+        <p>
+          Reflecting on this process, I found it quite challenging to get the branches right. There were times when I mistakenly pulled from the origin or forgot to fetch updates, which resulted in my entire document appearing to be "deleted." This led to confusion, especially when I ended up with multiple branches having the same or similar names as I tried to sort things out. I also encountered a merge error that took a significant amount of time to fix. After a lot of troubleshooting, I finally realized that the root of the problem was that I hadn’t committed properly in the first place. This oversight forced me to start over from scratch, which was frustrating but also a valuable learning experience. It taught me the importance of committing frequently and double-checking before merging to avoid costly mistakes in the future.          <br />
+          <br />
+          <h3>What do I want to do in the Future?</h3>
+          <p>In the future I want to have a better understanding of Git. Currently I make some small mistakes as I stated in the previous paragraph and I want to make it without mistakes at all. </p>
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-wrapper">
+        <h2 class="footer-h2">Get in Touch</h2>
+        <div class="footer-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-linkedin"
+          >
+            <path
+              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+            />
+            <rect width="4" height="12" x="2" y="9" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-github"
+          >
+            <path
+              d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+            />
+            <path d="M9 18c-4.51 2-5-2-7-2" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-mail"
+          >
+            <rect width="20" height="16" x="2" y="4" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
