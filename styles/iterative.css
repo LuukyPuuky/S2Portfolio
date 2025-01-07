@@ -116,10 +116,21 @@
   border: 2px solid var(--secondarycolor);
 }
 
-.images img:nth-child(2) {
+.stylescape2:nth-child(2) {
   border-radius: 1.25rem;
   border: 2px solid var(--secondarycolor);
   width: 100%;
+}
+
+.logo-images {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo-images img {
+  width: 30%;
+  border-radius: 1.25rem;
+  border: 2px solid var(--secondarycolor);
 }
 
 .here-link {
