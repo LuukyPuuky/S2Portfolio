@@ -106,13 +106,20 @@
 
 .images {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
+  gap: 2rem;
 }
 .images img {
   width: 48%;
   border-radius: 1.25rem;
   border: 2px solid var(--secondarycolor);
+}
+
+.images img:nth-child(2) {
+  border-radius: 1.25rem;
+  border: 2px solid var(--secondarycolor);
+  width: 100%;
 }
 
 .here-link {
