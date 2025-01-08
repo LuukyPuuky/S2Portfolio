@@ -118,8 +118,6 @@
 
 .images_pp {
   display: flex;
-
-  justify-content: space-evenly;
   gap: 2rem;
 }
 .images_pp img {
