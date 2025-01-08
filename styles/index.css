@@ -37,6 +37,30 @@
   flex-direction: column;
   color: var(--white);
   height: 65vh;
+  gap: 2rem;
+}
+
+.scroll-cue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-cue-img {
+  font-size: 2rem;
+  color: white;
+  animation: bounce 1.5s infinite;
+  width: 60px;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
 }
 
 h1 {
