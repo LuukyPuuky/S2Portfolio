@@ -21,6 +21,7 @@
   box-sizing: border-box;
   background-color: var(--backgroundcolor);
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .hero-container {
@@ -28,6 +29,7 @@
   margin: 0 auto;
   padding: 20px;
   text-align: center;
+  height: 100vh;
 }
 
 .hero-content {
@@ -36,8 +38,12 @@
   align-items: center;
   flex-direction: column;
   color: var(--white);
-  height: 65vh;
+  height: 100vh;
   gap: 2rem;
+}
+
+button {
+  border: none;
 }
 
 .scroll-cue {
@@ -51,6 +57,10 @@
   color: white;
   animation: bounce 1.5s infinite;
   width: 60px;
+}
+
+.scroll-cue-img:hover {
+  cursor: pointer;
 }
 
 @keyframes bounce {
@@ -75,4 +85,16 @@ h1 {
     text-align: center;
     font-size: 4.4375rem;
   }
+}
+
+.title {
+  color: var(--white);
+  text-align: center;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-family: var(--font-family);
 }
