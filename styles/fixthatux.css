@@ -55,6 +55,16 @@
   font-weight: 800;
   line-height: normal;
 }
+
+.section h4 {
+  color: var(--tertiarycolor);
+  font-size: 1.3rem;
+  margin-top: 0;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 .section p {
   font-size: 1em;
   line-height: 1.5;

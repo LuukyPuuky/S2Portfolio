@@ -95,6 +95,16 @@
   font-weight: 600;
 }
 
+.section h4 {
+  color: var(--secondarycolor);
+  font-size: 1.3rem;
+  margin-top: 0;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
 #example4 video {
   width: 100%;
   max-width: 74.12rem;
