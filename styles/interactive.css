@@ -267,3 +267,25 @@ a {
 .arrowsvg-left {
   transform: scaleX(-1);
 }
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  height: 60px;
+  width: 60px;
+  background-color: var(--tertiarycolor);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  transition: opacity 0.3s, transform 0.3s;
+  font-weight: bold;
+}
+
+.topbtn {
+  background: none;
+  height: 50px;
+}
