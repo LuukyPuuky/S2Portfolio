@@ -57,9 +57,11 @@
 
 .example-button:hover {
   cursor: pointer;
+  background-color: var(--secondarycolor);
+  transform: scale(1.05);
 }
 
-.example-button p {
+.example-button {
   color: var(--white);
   font-size: 1.5rem;
   font-weight: 800;
@@ -324,4 +326,14 @@ a {
 #scrollToTopBtn:hover {
   background-color: var(--secondarycolor);
   transform: scale(1.05);
+}
+
+.section h4 {
+  color: var(--secondarycolor);
+  font-size: 1.3rem;
+  margin-top: 0;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
