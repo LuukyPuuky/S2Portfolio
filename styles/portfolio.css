@@ -75,6 +75,12 @@
   border: 2px solid var(--tertiarycolor);
 }
 
+.examples {
+  width: 75%;
+  max-height: fit-content;
+  border-radius: 1.25rem;
+}
+
 .here-link {
   color: var(--tertiarycolor);
   text-decoration: none;
