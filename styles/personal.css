@@ -106,12 +106,26 @@
 
 .images {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
   gap: 2rem;
 }
-.images img {
+
+.feedpulses {
+  border: 2px solid var(--secondarycolor);
+  border-radius: 1.25rem;
+}
+
+.astro-logo {
+  max-height: fit-content;
+
   width: 48%;
+  border-radius: 1.25rem;
+  border: 2px solid var(--secondarycolor);
+}
+
+.astrogit {
+  width: 48%;
+  max-height: fit-content;
   border-radius: 1.25rem;
   border: 2px solid var(--secondarycolor);
 }
