@@ -117,3 +117,27 @@ a {
   width: 100%;
   max-width: 74.12rem;
 }
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  height: 60px;
+  width: 60px;
+  background: transparent;
+  border: 2px solid var(--tertiarycolor);
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.topbtn {
+  height: 54px;
+  background: transparent;
+}
+
+#scrollToTopBtn:hover {
+  background-color: var(--tertiarycolor);
+  transform: scale(1.05);
+}

@@ -1,4 +1,3 @@
-// Get the button
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
 // Show the button when scrolling down 100px
