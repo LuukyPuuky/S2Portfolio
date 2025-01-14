@@ -104,6 +104,15 @@
   font-weight: 600;
 }
 
+.section code {
+  line-height: 1.5;
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
 #example4 video {
   width: 100%;
   max-width: 74.12rem;
