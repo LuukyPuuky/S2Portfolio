@@ -290,3 +290,9 @@ a {
   background-color: var(--tertiarycolor);
   transform: scale(1.05);
 }
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: var(--tertiarycolor);
+  text-decoration-thickness: 0.15rem;
+}
