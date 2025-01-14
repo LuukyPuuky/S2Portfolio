@@ -141,7 +141,7 @@
   transform: scale(1.05);
 }
 
-.list {
+.section .list {
   list-style-type: decimal;
   font-size: 1em;
   line-height: 1.5;
