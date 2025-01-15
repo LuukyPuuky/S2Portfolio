@@ -32,6 +32,8 @@ Here’s a glimpse of the projects I’ve worked on:
 
 4. **[Portfolio](#)**
    - The portfolio project is the portfolio you are about to review and is within this github repository.
+5. **[Project X](#projectx.luuksteijaert.nl)**
+   - This project is about my own project. I choose to remake a chozen website in Tailwind CSS framework. I wanted to learn how to work with a CSS framework to speedup the process of making websites.
 
 ---
 
