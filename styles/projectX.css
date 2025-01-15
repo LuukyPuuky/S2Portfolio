@@ -152,3 +152,12 @@
   font-weight: 600;
   margin-left: 2rem;
 }
+
+video {
+  width: 75%;
+  max-width: 74.12rem;
+  border-radius: 1.25rem;
+  border: 2px solid var(--primarycolor);
+  display: block;
+  margin: 0 auto;
+}
